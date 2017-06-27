@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemap scheme="2.0">
+  <title>Example site map</title>
+  <version>1.3</version>
+  <link>https://erroragency.slickplan.com/pdongaqin</link>
+  <pubDate>Thu, 15 Jun 2017 06:06:14 -0400</pubDate>
+  <settings>
+    <title>Example site map</title>
+    <tagline>Example</tagline>
+    <language>en_GB</language>
+  </settings>
+  <content_templates>
+    <template id="n6kzozdw" name="1. Home">
+      <elements>
+        <wysiwyg>
+          <id>dwsftd5gbyk2nycd</id>
+        </wysiwyg>
+      </elements>
+    </template>
+    <template id="nzcshyps" name="2. Highlights">
+      <elements>
+        <wysiwyg>
+          <id>k6aerdml6irv6er5</id>
+        </wysiwyg>
+      </elements>
+    </template>
+    <template id="cewk9qe8w" name="3. What's On">
+      <elements>
+        <wysiwyg>
+          <id>lcx55dfdmigkn8am</id>
+          <content>&lt;h1&gt;Event title&lt;/h1&gt;
+&lt;p&gt;Event date &amp; time&lt;/p&gt;
+&lt;p&gt;Event category&lt;/p&gt;
+&lt;p&gt;Event detail paragraph&lt;/p&gt;</content>
+        </wysiwyg>
+      </elements>
+    </template>
+    <template id="xrquiryc" name="4. Visiting">
+      <elements>
+        <wysiwyg>
+          <id>r25ddrelebue9qth</id>
+        </wysiwyg>
+      </elements>
+    </template>
+    <template id="dcdvxwcu" name="5. Content">
+      <elements>
+        <wysiwyg>
+          <id>wp0pagr8pqvi97sm</id>
+        </wysiwyg>
+      </elements>
+    </template>
+    <template id="f6decp3o2" name="6. History &amp; Collections">
+      <elements>
+        <wysiwyg>
+          <id>xc3i6rcl5lpynbk2</id>
+        </wysiwyg>
+      </elements>
+    </template>
+    <template id="kujcf03" name="7. Collection detail">
+      <elements>
+        <wysiwyg>
+          <id>i1tvfmbnzvytbqjj</id>
+        </wysiwyg>
+      </elements>
+    </template>
+    <template id="frgex2pg" name="Schools">
+      <elements>
+        <wysiwyg>
+          <id>nw68m77elpxw916l</id>
+        </wysiwyg>
+      </elements>
+    </template>
+    <template id="kqci4zn" name="Section landing">
+      <elements>
+        <wysiwyg>
+          <id>iykivjij8xpjrwar</id>
+        </wysiwyg>
+      </elements>
+    </template>
+  </content_templates>
+  <section id="svgmainsection">
+    <options>
+      <template>horizontal</template>
+      <design>flat</design>
+      <color_scheme>
+        <default_color>#d5d5d5</default_color>
+        <lines_color>#e5e5e5</lines_color>
+        <text_color>#595959</text_color>
+        <home>#96ceb4</home>
+        <level1>#ffeead</level1>
+        <level2>#ff9350</level2>
+        <level3>#ff6f69</level3>
+        <level4>#ffcc5c</level4>
+        <util>#aad8b0</util>
+        <foot>#aad8b0</foot>
+      </color_scheme>
+      <text_shadow>false</text_shadow>
+      <id>svgmainsection</id>
+      <section>svgmainsection</section>
+    </options>
+    <cells>
+      <cell id="svgl0pe9ch2cn8j530x">
+        <level>util</level>
+        <text>Temporary news</text>
+        <order>1000</order>
+        <contents>
+          <body>
+            <wysiwyg>
+              <id>wp0pagr8pqvi97sm</id>
+            </wysiwyg>
+          </body>
+          <template>dcdvxwcu</template>
+        </contents>
+      </cell>
+      <cell id="svgoob4in8uuta3t13b">
+        <archetype>_consumption</archetype>
+        <level>foot</level>
+        <text>About</text>
+        <order>1000</order>
+        <contents>
+          <body>
+            <wysiwyg>
+              <id>wp0pagr8pqvi97sm</id>
+            </wysiwyg>
+          </body>
+          <template>dcdvxwcu</template>
+        </contents>
+      </cell>
+      <cell id="svgw6k82nowg4k0jzh2">
+        <level>foot</level>
+        <text>Get in touch</text>
+        <order>2000</order>
+        <contents>
+          <body>
+            <wysiwyg>
+              <id>wp0pagr8pqvi97sm</id>
+            </wysiwyg>
+          </body>
+          <template>dcdvxwcu</template>
+        </contents>
+      </cell>
+      <cell id="svgk97i2y8g8g827ecx">
+        <textcolor>#414141</textcolor>
+        <level>home</level>
+        <text>Home</text>
+        <order>1000</order>
+        <contents>
+          <body>
+            <wysiwyg>
+              <id>dwsftd5gbyk2nycd</id>
+            </wysiwyg>
+          </body>
+          <template>n6kzozdw</template>
+        </contents>
+      </cell>
+      <cell id="svgah1cm1du97u7cggt">
+        <level>1</level>
+        <text>Highlights</text>
+        <order>1000</order>
+        <desc>Highlights could show the past month's event highlights as one of the section.</desc>
+        <contents>
+          <body>
+            <wysiwyg>
+              <id>k6aerdml6irv6er5</id>
+            </wysiwyg>
+          </body>
+          <template>nzcshyps</template>
+        </contents>
+      </cell>
+      <cell id="svgslmv3wmolvqu9eap">
+        <textcolor>#3c3c3c</textcolor>
+        <archetype>_listing</archetype>
+        <level>1</level>
+        <text>What's On</text>
+        <order>2000</order>
+        <contents>
+          <body>
+            <wysiwyg>
+              <id>lcx55dfdmigkn8am</id>
+              <content>&lt;h1&gt;Event title&lt;/h1&gt; &lt;p&gt;Event date &amp; time&lt;/p&gt; &lt;p&gt;Event image&lt;/p&gt; &lt;p&gt;Price/Free&lt;/p&gt; &lt;p&gt;Type of event&lt;/p&gt; &lt;p&gt;Event detail paragraph&lt;/p&gt;</content>
+            </wysiwyg>
+          </body>
+          <status>draft</status>
+          <template>cewk9qe8w</template>
+          <assignee firstName="Martin" lastName="Chapman Fromm" email="martin@error.agency">188443</assignee>
+        </contents>
+      </cell>
+      <cell id="svgvxnlu0yth95meaet">
+        <desc>&lt;strong&gt;From writeup&lt;/strong&gt;&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Parking and coach drop off points&lt;/li&gt;&lt;li&gt;Prices&lt;/li&gt;&lt;li&gt;Opening times&lt;/li&gt;&lt;li&gt;The local area&lt;/li&gt;&lt;li&gt;Location and directions&lt;/li&gt;&lt;li&gt;What to expect: clothing, weather&lt;/li&gt;&lt;li&gt;Accessibility&lt;/li&gt;&lt;li&gt;Amenities (toilets, baby change, café, gift shop)&lt;/li&gt;&lt;li&gt;Walking tour&lt;/li&gt;&lt;li&gt;Group visits&lt;/li&gt;&lt;/ul&gt;</desc>
+        <archetype>_fragment</archetype>
+        <level>1</level>
+        <text>Visiting</text>
+        <order>3000</order>
+        <contents>
+          <body>
+            <wysiwyg>
+              <id>r25ddrelebue9qth</id>
+            </wysiwyg>
+          </body>
+          <template>xrquiryc</template>
+        </contents>
+      </cell>
+      <cell id="svgj8eri1wqsoyow2uu">
+        <level>1</level>
+        <text>Season Passes &amp; Offers</text>
+        <order>4000</order>
+        <contents>
+          <body>
+            <wysiwyg>
+              <id>wp0pagr8pqvi97sm</id>
+            </wysiwyg>
+          </body>
+          <template>dcdvxwcu</template>
+        </contents>
+      </cell>
+      <cell id="svgoi0t2pbesailq3pw">
+        <level>1</level>
+        <text>History &amp; Collections</text>
+        <order>5000</order>
+        <contents>
+          <body>
+            <wysiwyg>
+              <id>xc3i6rcl5lpynbk2</id>
+            </wysiwyg>
+          </body>
+          <template>f6decp3o2</template>
+        </contents>
+      </cell>
+      <cell id="svgfmlluc4tv1pa4z9l">
+        <desc>&lt;strong&gt;From writeup&lt;br /&gt;&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;Typical projects&lt;/li&gt;&lt;li&gt;Worksheets&lt;/li&gt;&lt;li&gt;Links to curriculum&lt;/li&gt;&lt;li&gt;Risk assessment (download?)&lt;/li&gt;&lt;li&gt;Goody bags/souvenir info&lt;/li&gt;&lt;/ul&gt;</desc>
+        <level>1</level>
+        <text>Schools</text>
+        <order>6000</order>
+        <contents>
+          <body>
+            <wysiwyg>
+              <id>wp0pagr8pqvi97sm</id>
+            </wysiwyg>
+          </body>
+          <template>dcdvxwcu</template>
+        </contents>
+      </cell>
+      <cell id="svgam3j8qjjoya15a34">
+        <level>1</level>
+        <text>Get involved</text>
+        <order>7000</order>
+        <desc>&lt;strong&gt;From writeup&lt;br /&gt;&lt;br /&gt;Volunteering&lt;/strong&gt;&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Available volunteer positions&lt;/li&gt;&lt;li&gt;Benefits of volunteering&lt;/li&gt;&lt;li&gt;Application form (Word doc)&lt;/li&gt;&lt;li&gt;Volunteering handbook (Word doc)&lt;/li&gt;&lt;/ul&gt;And...&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Donate&lt;/li&gt;&lt;/ul&gt;</desc>
+        <contents>
+          <template>dcdvxwcu</template>
+          <body>
+            <wysiwyg>
+              <id>wp0pagr8pqvi97sm</id>
+            </wysiwyg>
+          </body>
+        </contents>
+      </cell>
+      <cell id="svge3r4d6vviqxp7oya">
+        <parent>svgfmlluc4tv1pa4z9l</parent>
+        <desc>&lt;strong&gt;Includes&lt;/strong&gt;&lt;br /&gt;&lt;ul&gt;&lt;li&gt;list of sessions&lt;/li&gt;&lt;li&gt;prices&lt;/li&gt;&lt;li&gt;enquiry form&lt;/li&gt;&lt;/ul&gt;</desc>
+        <level>2</level>
+        <text>Sessions &amp; prices</text>
+        <order>1000</order>
+        <contents>
+          <body>
+            <wysiwyg>
+              <id>wp0pagr8pqvi97sm</id>
+            </wysiwyg>
+          </body>
+          <template>dcdvxwcu</template>
+        </contents>
+      </cell>
+      <cell id="svgdoznheorsf2xtj0b">
+        <parent>svgoi0t2pbesailq3pw</parent>
+        <level>2</level>
+        <text>History content page</text>
+        <order>1000</order>
+        <contents>
+          <body>
+            <wysiwyg>
+              <id>wp0pagr8pqvi97sm</id>
+            </wysiwyg>
+          </body>
+          <template>dcdvxwcu</template>
+        </contents>
+      </cell>
+      <cell id="svgktdf5th3grhur1yi">
+        <parent>svgvxnlu0yth95meaet</parent>
+        <level>2</level>
+        <text>Walking tour</text>
+        <order>1000</order>
+        <archetype>_file</archetype>
+      </cell>
+      <cell id="svgegzubzb1wonw46l6">
+        <parent>svgoi0t2pbesailq3pw</parent>
+        <level>2</level>
+        <text>Collections content page</text>
+        <order>2000</order>
+        <desc>Probably 6 collections</desc>
+        <contents>
+          <body>
+            <wysiwyg>
+              <id>i1tvfmbnzvytbqjj</id>
+            </wysiwyg>
+          </body>
+          <template>kujcf03</template>
+        </contents>
+      </cell>
+    </cells>
+  </section>
+</sitemap>
